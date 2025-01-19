@@ -1,0 +1,59 @@
+.main-skill-cards
+{
+    margin-top: 3%;
+    background-color: #0d1620eb;
+}
+.heading
+{
+    padding-top: 2%;
+    color: #19a262;
+    font-size: 3vw;
+    text-align: center;
+}
+.cards-collection
+{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card-row
+{
+    width: 20%;
+    min-width: 300px;
+    margin-left: 5%;
+    background-color: rgb(27, 25, 25);
+    margin-bottom: 15%;
+    border-radius: 2%;
+}
+.upper-circle
+{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: #19a262;
+    position: relative;
+    top: -40px; 
+    left: 20px;
+}
+.card-heading
+{
+    color: rgb(178, 180, 178);
+    padding-left: 5%;
+    font-weight: 600;
+}
+.card-body
+{
+    color: rgb(178, 180, 178);
+    padding: 10%;
+}
+hr
+{
+    width: 15%;
+    color: #00ff88;
+    margin-left: 5%;
+    border: 5px solid #00ff88;
+    border-radius: 20%;
+    position: relative;
+    top: -8px;
+}
