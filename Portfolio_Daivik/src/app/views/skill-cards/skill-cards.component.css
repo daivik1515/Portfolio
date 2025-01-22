@@ -2,13 +2,16 @@
 {
     margin-top: 3%;
     background-color: #0d1620eb;
+    min-height: 100vh;
+
 }
 .heading
 {
     padding-top: 2%;
     color: #19a262;
-    font-size: 3vw;
+    font-size: 30px;
     text-align: center;
+    text-decoration: underline;
 }
 .cards-collection
 {

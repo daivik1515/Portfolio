@@ -1,8 +1,11 @@
 .about-main
 {
     width: 100%;
-    background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    
+    /* background-image: url("../../../assets/images/whitepattern.avif"); */
+    /* background-image: url("https://img.freepik.com/free-vector/white-minimal-hexagons-background_79603-1452.jpg?t=st=1737488263~exp=1737491863~hmac=a195038737bd41914033db504b88cb89faed5e6e427d96000d6b071d5b7ec6b8&w=1480"); */
+    background-image: url("https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148952241.jpg?t=st=1737488832~exp=1737492432~hmac=bbbf184aceeef65fd7a0657b7f8ea183cf3c0d7068a00e0feb4471e3c9ed7a80&w=1480");
+    min-height: 100vh;
+
 }
 .main-body
 {

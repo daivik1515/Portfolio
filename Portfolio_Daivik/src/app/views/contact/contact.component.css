@@ -1,0 +1,52 @@
+.main-contacts
+{
+    margin-top: 1%;
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830028.jpg?t=st=1737490038~exp=1737493638~hmac=8a3dd6cf0e5c0a294881c84f18392a77d35d0578edec2bc74980a7a7686ccd1c&w=1480");
+    min-height: 100vh;
+}
+.heading
+{
+    padding-top: 1%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.contact-body
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.row1
+{
+    width: 40%;
+}
+.row2
+{
+    width: 40%;
+}
+img
+{
+    width: 70%;
+}
+.form
+{
+    width: 80%;
+    height: 300px;
+    background: white;
+    border: 1px solid rgb(169, 166, 166);
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px 5px #a5a5a5;
+}
+.row1-heading
+{
+    color: #838282;
+    font-size: 30px;
+    padding-left: 10%;
+}
+
+.row1-subheading
+{
+    color: #838282;
+    font-weight: 300;
+    padding-left: 10%;
+}

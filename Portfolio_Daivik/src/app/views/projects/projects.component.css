@@ -1,0 +1,91 @@
+.main-projects
+{
+    margin-top: 1%;
+    /* background-image: url("https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg?t=st=1737494530~exp=1737498130~hmac=185f1289a90f1ed1b8028a4c851eae6e20067276d3c0481e54860ea688005367&w=826"); */
+}
+.heading
+{
+    padding-top: 1%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+.project-image
+{
+    width: 30vw;
+}
+.projects
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.project
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    justify-content: space-evenly;
+    
+}
+.project-row1
+{
+    width: 30%;
+    min-width: 500px;
+    text-align: center;
+}
+.project-row2
+{
+    width: 30%;
+    min-width: 500px;
+}
+.row2-heading
+{
+    font-size: 20px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: rgb(101, 98, 98);
+}
+.row2-description
+{
+    font-weight: 300;
+    padding-bottom: 3%;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(101, 98, 98, 0.859);
+}
+.row2-button
+{
+    align-items: center;
+    text-align: center;
+}
+.project-button
+{
+    margin-top: 10%;
+    border-radius: 5%;
+    border: none;
+    background-color: rgba(57, 57, 196, 0.878);
+    padding: 10px;
+    color: white;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;   
+    margin-bottom: 5%;
+}
+/* hr
+{
+    position: relative;
+    top: -20px;
+    justify-self: center;
+    border: 5px solid #0015fa;
+    width: 25%;
+    border-radius: 2px;
+} */
+@media only screen and (max-width: 1000px) 
+{
+    .project-image
+    {
+        width: 45vw;
+    }
+}
