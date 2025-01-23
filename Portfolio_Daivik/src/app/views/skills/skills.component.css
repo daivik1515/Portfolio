@@ -1,6 +1,10 @@
 .skill-main
 {
     min-height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?t=st=1737589817~exp=1737593417~hmac=23e6ca59c8fae768bc3ccfbd72c9b3455b6a657951d4c82f16a6789f09c1e0d5&w=1800");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about-me
 {
@@ -74,6 +78,7 @@ p
 {
     font-size: 30px;
     color:black;
+    margin-bottom: 5%;
     
 }
 .skills-body
@@ -85,6 +90,56 @@ p
     /* height: 30vw; */
     width: 42vw;
     border-radius: 5%;
+}
+
+.span-image
+{
+    height: 50px;
+    width: 50px;
+
+}
+
+.university-name
+{
+    font-weight: 300;
+    font-size: 23px;
+}
+.education-card
+{
+   font-weight: 300; 
+   margin-bottom: 10%;
+   display: flex;
+   margin-right: 10%;
+   border-radius: 10px;
+   padding: 5px;
+   background-color: rgb(223 221 221 / 52%);
+   color: rgb(73, 73, 73);
+   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.288);
+   /* flex-wrap: wrap; */
+   /* justify-content: space-evenly; */
+}
+.degree-name
+{
+    font-weight: 400;
+}
+.duration
+{
+    font-weight: 300;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.li-education
+{
+    font-size: 12px;
+}
+.column-2
+{
+    padding-left: 3%;
+}
+.education-card:hover
+{
+    background-color: rgb(223 221 221);
+    cursor: pointer
 }
 
 @media only screen and (max-width: 1000px) {
