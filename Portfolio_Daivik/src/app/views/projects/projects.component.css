@@ -24,6 +24,9 @@
  flex-wrap: wrap;
  padding:2%;
  justify-content: space-evenly;
+ animation: fade linear;
+ animation-timeline: view();
+ animation-range: entry -8% cover 18%;
 }
 .project-card
 {

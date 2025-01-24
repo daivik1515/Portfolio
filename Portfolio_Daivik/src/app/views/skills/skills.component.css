@@ -37,6 +37,9 @@
     display: flex;
     justify-content: space-between; 
     flex-wrap: wrap;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
 }
 .summary
 {
@@ -115,6 +118,9 @@ p
    background-color: rgb(223 221 221 / 52%);
    color: rgb(73, 73, 73);
    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.288);
+   /* animation: appear-reverse linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%; */
    /* flex-wrap: wrap; */
    /* justify-content: space-evenly; */
 }

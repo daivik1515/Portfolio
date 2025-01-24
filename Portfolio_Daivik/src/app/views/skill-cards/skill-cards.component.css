@@ -20,6 +20,9 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    animation: appear-reverse linear;
+    animation-timeline: view();
+    animation-range: entry -5% cover 30%;
 }
 .card-row
 {
