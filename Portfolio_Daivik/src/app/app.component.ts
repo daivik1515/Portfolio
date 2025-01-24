@@ -6,12 +6,13 @@ import { SkillsComponent } from './views/skills/skills.component';
 import { SkillCardsComponent } from './views/skill-cards/skill-cards.component';
 import { ProjectsComponent } from './views/projects/projects.component';
 import { ContactComponent } from './views/contact/contact.component';
-import { EducationComponent } from './views/education/education.component';
+import { FooterComponent } from './views/footer/footer.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,NavbarComponent,AboutComponent,SkillsComponent,SkillCardsComponent,ProjectsComponent,ContactComponent,EducationComponent],
+  imports: [RouterOutlet,NavbarComponent,AboutComponent,SkillsComponent,SkillCardsComponent,ProjectsComponent,ContactComponent,FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

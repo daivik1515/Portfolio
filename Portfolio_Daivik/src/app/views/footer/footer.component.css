@@ -1,0 +1,84 @@
+.footer-main
+{
+    background-color: black;
+    padding: 3%;
+    padding-bottom: 5px;
+}
+.footer-body
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+.column-1
+{
+    width: 40vw;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.column-2
+{
+    width: 40vw;
+    padding-left: 20%;
+}
+.my-name
+{
+    font-size: 20px;
+}
+.my-designation
+{
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb(190, 192, 193);
+}
+.resume-button
+{
+    margin-top: 5%;
+}
+.resume-button
+{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(190, 192, 193);
+}
+.socials
+{
+    display: flex;
+    
+}
+.social-item
+{
+    color: rgb(190, 192, 193);
+    padding-right: 8%;
+}
+.fa-brands
+{
+    font-size: 35px;
+}
+.fa-solid
+{
+    font-size: 35px;
+}
+.column-2-heading
+{
+    color: rgb(190, 192, 193);
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+a
+{
+    color: rgb(190, 192, 193);
+}
+.created-by
+{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+.fa-heart
+{
+    color: white; 
+    font-size: 12px;
+}
