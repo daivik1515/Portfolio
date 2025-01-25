@@ -20,17 +20,17 @@
 {
     padding-top: 15%;
     flex: 50%;
-    min-width: 500px;
+    /* min-width: 500px; */
     width: 500px;
     padding-bottom: 8%;
     
 }
 .body-row2
 {
-    min-width: 500px;
-    width: 500px;
-    padding-top: 15%;
-    min-width: 50vw;
+    /* min-width: 500px; */
+    width: 50%;
+    padding-top: 20%;
+    /* min-width: 50vw; */
 }
 .image-main
 {
