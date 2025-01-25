@@ -121,6 +121,12 @@ i
     /* background-image: linear-gradient(white,white); */
     opacity: 1;
 }
+.fa-person
+{
+    color: rgb(190, 192, 193);
+    font-size: 30px;
+}
+
 
 @media only screen and (min-width: 1000px) {
     .project-card
