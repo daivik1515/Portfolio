@@ -54,3 +54,10 @@ body
 
     }
 }
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: initial !important;
+      transition: initial !important;
+    }
+  }
+  
