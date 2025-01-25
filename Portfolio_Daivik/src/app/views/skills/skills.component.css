@@ -50,7 +50,7 @@ p
 {
     /* padding-right: 5%; */
     font-size: 1.2vw;
-    line-height: 2vw;
+    /* line-height: 2vw; */
 
 }
 .row1
@@ -155,8 +155,8 @@ p
     }
     p
     {
-        font-size: 2vw;
-        line-height: 3vw;
+        font-size: 15px;
+        /* line-height: 3vw; */
         padding-right: 10%;
     }
     .summary-heading
@@ -173,4 +173,29 @@ p
         justify-content: center;
         margin-left: 5vw;
     }
+    .university-name
+    {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .degree-name
+    {
+    font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    p
+    {
+        font-size: 10px;
+    }
+    .university-name
+    {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .degree-name
+    {
+    font-size: 12px;
+    }
+
 }
