@@ -38,8 +38,8 @@
 }
 .my-image
 {
-    width: 25vw;
-    height: 25vw;
+    width: 30vw;
+    height: 30vw;
     border-radius: 100%;
 }
 .intro-line
@@ -47,14 +47,17 @@
     justify-self: center;
     font-size: 60px;
     /* color: #f4f4f9; */
-    color: rgb(115, 110, 110);
+    /* color: rgb(115, 110, 110); */
     text-align: center;
+    background: -webkit-linear-gradient(#50cbbb, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .sub-intro
 {
     margin-top: 5%;
     /* color: #f4f4f9; */
-    color: rgb(118, 111, 111);
+    color: rgb(175 169 169);;
     font-size: 20px;
     width: 80%;
     justify-self: center;
