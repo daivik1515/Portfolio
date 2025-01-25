@@ -1,7 +1,13 @@
 {
-    "routes":[
-        
-            {"src":"/(.*)","dest":"/"},
-            { "src": "/assets/(.*)", "dest": "/assets/$1" }
+    "builds": [
+      {
+        "src": "angular.json",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "dist/portfolio-daivik" }
+      }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/" }
     ]
-}
+  }
+  
