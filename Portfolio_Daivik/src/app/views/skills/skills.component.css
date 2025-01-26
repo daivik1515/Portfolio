@@ -38,9 +38,11 @@
     justify-content: space-between; 
     flex-wrap: wrap;
     animation: appear linear;
-    -webkit-animation: appear  linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
+    -webkit-animation: appear  linear;
+    -webkit-animation-timeline: view();
+    -webkit-animation-range: entry 0% cover 30%;
 }
 .summary
 {
