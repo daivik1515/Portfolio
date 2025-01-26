@@ -45,7 +45,6 @@
 .socials
 {
     display: flex;
-    
 }
 .social-item
 {
@@ -81,4 +80,24 @@ a
 {
     color: white; 
     font-size: 12px;
+}
+@media only screen and (max-width: 600px) 
+{
+    .footer-body
+    {
+        justify-content: space-between;
+    }
+    .social-item
+    {
+    color: rgb(190, 192, 193);
+    padding-right: 5%;
+    }
+    .fa-brands
+    {
+    font-size: 20px;
+    }
+    .fa-solid
+    {
+    font-size: 20px;
+    }
 }
