@@ -83,6 +83,10 @@ a
 }
 @media only screen and (max-width: 600px) 
 {
+    .footer-main
+    {
+    padding-top: 15%;
+    }
     .footer-body
     {
         justify-content: space-between;
