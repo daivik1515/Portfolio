@@ -94,7 +94,7 @@ a
     .social-item
     {
     color: rgb(190, 192, 193);
-    padding-right: 5%;
+    padding-right: 8%;
     }
     .fa-brands
     {
@@ -117,5 +117,9 @@ a
     .my-designation
     {
         width: 50vw;
+    }
+    .column-2
+    {
+        padding-right: 8%;
     }
 }
