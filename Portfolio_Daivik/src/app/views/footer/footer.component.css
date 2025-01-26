@@ -104,4 +104,18 @@ a
     {
     font-size: 20px;
     }
+    .resume-button
+    {
+    background-color: rgb(190, 192, 193);
+    color: black;
+    font-size: 15px;
+    }
+    .my-name
+    {
+        width: 50vw;
+    }
+    .my-designation
+    {
+        width: 50vw;
+    }
 }
