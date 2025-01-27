@@ -3,6 +3,10 @@
     /* margin-top: 3%; */
     background-color: #0d1620fb;
     /* min-height: 100vh; */
+    animation: fade-enlarge 2s ease-out;
+    animation-timeline: view();
+    animation-range: exit;
+    
 
 }
 .heading
