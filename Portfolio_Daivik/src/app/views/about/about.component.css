@@ -9,7 +9,7 @@
     background-position: center;
     background-size: cover;
     min-height: 100vh;
-    animation: fade-enlarge 2s ease-out;
+    animation: fade-enlarge ease-out;
     animation-timeline: view();
     animation-range: exit 100px;
 }
