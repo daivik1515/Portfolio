@@ -134,3 +134,14 @@ i
         width: 40%;
     }
   }
+  .talkytron
+  {
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+  }
+  .talkytron a
+  {
+    color: rgb(75, 63, 110);
+  }
