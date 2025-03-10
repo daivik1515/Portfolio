@@ -3,7 +3,7 @@
     width: 100%;
     /* background-image: url("../../../assets/images/whitepattern.avif"); */
     /* background-image: url("https://img.freepik.com/free-vector/dark-wavy-colors-background_23-2148403785.jpg?t=st=1737857628~exp=1737861228~hmac=9726409aec3fe9687be7371f231e394549088b46bf8e8dc2ddf24aff1eab2223&w=1380"); */
-    background-image: url("/assets/images/dark-background.jpg");
+    /* background-image: url("/assets/images/dark-background.jpg"); */
     /* background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1409.jpg?t=st=1737856845~exp=1737860445~hmac=00bae5b30a1932b92e9b3bfdf290e3d21e5fdd0b280292f7166b68a48127ecf8&w=1380"); */
     background-repeat: no-repeat;
     background-position: center;
@@ -74,7 +74,7 @@
     /* justify-content: center; */
     align-self: center;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1150px) {
     .body-row1
     {
         padding-top: 25%;
