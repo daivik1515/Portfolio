@@ -62,7 +62,7 @@ p
     font-weight: 300;
     color: rgb(115, 110, 110);
     padding-right: 2%;
-    border-right: 2px solid black;
+    /* border-right: 2px solid black; */
     /* min-width: 500px; */
     /* font-size: 1.4vw; */
 }
