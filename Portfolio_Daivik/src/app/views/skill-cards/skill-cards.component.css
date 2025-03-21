@@ -1,7 +1,8 @@
 .main-skill-cards
 {
     /* margin-top: 3%; */
-    background-color: #0d1620fb;
+    /* background-color: #0d1620fb; */
+    background-image: linear-gradient(#000,#4e4d4d,#000);
     /* min-height: 100vh; */
     animation: fade-enlarge  ease-out;
     animation-timeline: view();
