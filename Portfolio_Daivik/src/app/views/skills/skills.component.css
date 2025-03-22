@@ -6,9 +6,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: fade-enlarge ease-out;
+    /* animation: fade-enlarge ease-out;
     animation-timeline: view();
-    animation-range: exit 100px;
+    animation-range: exit 100px; */
 }
 .about-me
 {
